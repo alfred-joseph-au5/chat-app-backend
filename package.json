@@ -1,0 +1,28 @@
+{
+  "name": "chat-app-backend",
+  "version": "0.0.0",
+  "description": "Real-time chat application using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://154bb19f8ecb5f906fd02e12276752054cdb3a19@github.com/alfred-joseph-au5/chat-app-backend.git"
+  },
+  "author": "Alfred Joseph, Abhinay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfred-joseph-au5/chat-app-backend/issues"
+  },
+  "homepage": "https://github.com/alfred-joseph-au5/chat-app-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
